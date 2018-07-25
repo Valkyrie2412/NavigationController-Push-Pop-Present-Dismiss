@@ -12,6 +12,7 @@
 		A002C76720F9E21E001CF44D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A002C76520F9E21E001CF44D /* Main.storyboard */; };
 		A002C76920F9E220001CF44D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A002C76820F9E220001CF44D /* Assets.xcassets */; };
 		A002C76C20F9E220001CF44D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A002C76A20F9E220001CF44D /* LaunchScreen.storyboard */; };
+		A002C77420F9E835001CF44D /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002C77320F9E835001CF44D /* BlueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A002C76820F9E220001CF44D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A002C76B20F9E220001CF44D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A002C76D20F9E220001CF44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A002C77320F9E835001CF44D /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				A002C76820F9E220001CF44D /* Assets.xcassets */,
 				A002C76A20F9E220001CF44D /* LaunchScreen.storyboard */,
 				A002C76D20F9E220001CF44D /* Info.plist */,
+				A002C77320F9E835001CF44D /* BlueViewController.swift */,
 			);
 			path = NavigationController;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A002C76420F9E21E001CF44D /* ViewController.swift in Sources */,
+				A002C77420F9E835001CF44D /* BlueViewController.swift in Sources */,
 				A002C76220F9E21E001CF44D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
